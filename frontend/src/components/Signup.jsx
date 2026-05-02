@@ -107,7 +107,7 @@ const Signup = () => {
                     <label>Role (Optional)</label>
                     <select name="role" value={formData.role} onChange={handleChange}>
                         <option value="user">Regular User</option>
-                        <option value="admin">Admin</option>
+                        
                     </select>
                 </div>
                 <button type="submit" disabled={loading}>
